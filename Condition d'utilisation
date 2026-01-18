@@ -1,4 +1,7 @@
 Quand tu es sur vscode, à chaque modification de ton code tu vas devoir mettre cela dans le terminal de vscode pour que ce dernier soit enregistré directement sur github: 
+git pull origin main --rebase
+puis: 
 git add .
-git commit -m "Ton message de commit"
-git push
+git rebase --continue
+enfin: 
+git push origin main
