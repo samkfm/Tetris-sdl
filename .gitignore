@@ -1,0 +1,5 @@
+# Ignorer tout sauf les fichiers du projet
+*
+!main.c
+!tetris.mp3
+!PixelTetris.ttf
