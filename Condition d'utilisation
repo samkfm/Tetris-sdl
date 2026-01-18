@@ -5,3 +5,7 @@ git add .
 git rebase --continue
 enfin: 
 git push origin main
+Si cela fonctionne pas utilise ça : 
+git add .
+git commit -m "Ton message de commit"
+git push
